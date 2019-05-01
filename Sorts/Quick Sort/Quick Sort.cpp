@@ -46,7 +46,7 @@ int main()
 	///
 	// Calling a sort function
 	///
-	QuickSort(arr,-1, size-1);
+	QuickSort(arr,0, size-1);
 
 
 	///
