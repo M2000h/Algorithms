@@ -1,5 +1,5 @@
 # Algorithms
-this repository contains the implementation of the most popular algorithms
+This repository contains the implementation of the most popular algorithms
 
 ## List of algortms
 
