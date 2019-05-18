@@ -3,6 +3,9 @@ This repository contains the implementation of the most popular algorithms
 
 ## List of algortms
 
+### Graphs
+* [DFS](https://github.com/M2000h/Algorithms/tree/master/Graphs/DFS)
+
 ### Search
 * [Binary Search](https://github.com/M2000h/Algorithms/tree/master/Search/Binary%20Search)
 * [Linear Search](https://github.com/M2000h/Algorithms/tree/master/Search/Linear%20Search)
