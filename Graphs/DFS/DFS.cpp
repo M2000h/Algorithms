@@ -1,13 +1,14 @@
 #include <iostream>
+#include <vector>
 using namespace std;
 
-int Graph[100][100];
-int Mark[100];
+vector<int> vec[100];
+bool Mark[100];
 int Way[100];
 int finish;
 
 void DFS(int v, int from, int size, int deep) {
-	Mark[v] = 1;
+	Mark[v] = true;
 	Way[deep] = v;
 	if (v == finish)
 	{
@@ -17,10 +18,16 @@ void DFS(int v, int from, int size, int deep) {
 		return;
 	}
 	for (int i = 1; i <= size; ++i)
-		if (Mark[i] == 0 && Graph[v][i])
+		if (!Mark[i] && find(vec[v].begin(), vec[v].end(), i) != vec[v].end())
 			DFS(i, v, size,deep+1);
 	
 }
+//5 4
+//1 2
+//2 3
+//4 5
+//5 4
+//3 5
 int main(void)
 {
 	int size;
@@ -30,7 +37,7 @@ int main(void)
 	{
 		int a, b;
 		cin >> a >> b;
-		Graph[a][b] = 1;
+		vec[a].push_back(b);
 	}
 	Mark[1] = 1;
 	DFS(1, 1, size, 0);
