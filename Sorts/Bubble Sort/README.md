@@ -1,6 +1,6 @@
 # Bubble sort
 
-![Alt Text](https://media.giphy.com/media/Ifs0itaWTrhXbwhOtK/giphy.gif)
+![Alt Text](/.media/Bubble%20Sort.gif)
 
 ### Performance
 O(n²)
