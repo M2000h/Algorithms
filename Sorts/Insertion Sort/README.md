@@ -1,6 +1,6 @@
 # Insertion Sort
 
-![Alt Text](https://media.giphy.com/media/loXzQPSskLjxTsPBWX/giphy.gif)
+![Alt Text](/.media/Insertion%20Sort.gif)
 
 ### Performance
 O(n²)
