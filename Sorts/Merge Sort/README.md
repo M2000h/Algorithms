@@ -1,6 +1,6 @@
 # Merge Sort
 
-![Alt Text](https://media.giphy.com/media/RinaUZHeBYmZqfTjVW/giphy.gif)
+![Alt Text](/.media/Merge%20Sort.gif)
 
 ### Performance
 O(n²)
