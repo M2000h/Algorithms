@@ -1,6 +1,6 @@
 # Quick sort
 
-![Alt Text](https://media.giphy.com/media/LOQJK363IDrKUUYREE/giphy.gif)
+![Alt Text](/.media/Quick%20sort.gif)
 
 ### Performance
 O(n²)
