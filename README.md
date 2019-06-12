@@ -4,7 +4,8 @@ This repository contains the implementation of the most popular algorithms
 ## List of algortms
 
 ### Graphs
-* [DFS](/Graphs/DFS)
+* [DFS](/Graphs/DFS)/Graphs/BFS
+* [BFS](/Graphs/BFS)
 
 ### Search
 * [Binary Search](/Search/Binary%20Search)
