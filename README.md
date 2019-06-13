@@ -4,7 +4,7 @@ This repository contains the implementation of the most popular algorithms
 ## List of algortms
 
 ### Graphs
-* [DFS](/Graphs/DFS)/Graphs/BFS
+* [DFS](/Graphs/DFS)
 * [BFS](/Graphs/BFS)
 
 ### Search
